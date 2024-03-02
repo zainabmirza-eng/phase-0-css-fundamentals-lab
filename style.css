@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  background-color: gray;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+#featured-property {
+  text-align: center; /* Center align the content inside the #featured-property */
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 0 auto; /* Center the paragraph horizontally using margin: 0 auto; */
+}
+
+#details div {
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
